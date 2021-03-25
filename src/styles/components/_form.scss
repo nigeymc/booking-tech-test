@@ -1,0 +1,53 @@
+.form-container {
+    background-color: #EECE6A;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 16px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        color: #000;
+    }
+
+    .form-container__form {
+        margin: 16px 0 0 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .form-container__field {
+        display: block;
+        padding: 0;
+        position: relative;
+        width: 100%;
+
+        label, input {
+            font-size: 14px;
+            font-weight: 400;
+            width: 100%;
+            padding: 0;
+            color: #262626;
+        }
+
+        label {
+            padding-bottom: 4px;
+            color: #333;
+        }
+
+        input {
+            border: 1px solid #d9d9d9;
+            height: 44px;
+            margin-top: calc(4px*2);
+            padding: calc(4px*2);
+        }
+
+        input:focus {
+            box-shadow: 0 0 0 3px rgb(51 102 178 / 24%);
+            outline: none;
+        }
+    }
+}
+

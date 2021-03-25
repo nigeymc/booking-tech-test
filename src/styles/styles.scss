@@ -1,0 +1,10 @@
+// Global CSS
+@import "./globals.scss";
+
+// Desktop only 
+@media (min-width: 768px) {
+	// Components
+    @import "./components/container.scss";
+    @import "./components/form.scss";
+    @import "./components/search-box-suggestions.scss";
+}
